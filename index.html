@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset='utf8'>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
     <style type='text/css'>
       a.tapped {
         color:white;
@@ -9,11 +9,10 @@
     </style>
   </head>
   <body>
-    <a class='tap' href='http://gree.jp'>
-    <div>このリンク消えないかなー</a>
+    <a class='tap' href='http://gree.jp'>このリンク消えないかなー</a>
   </body>
   <script>
-    $(".tap").on('click', function(e){
+    $('.tap').on('click', function(e){
       $(this).addClass('tapped');
     })
   </script>
